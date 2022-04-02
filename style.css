@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #5EEAD4;
+}
+.container{
+    display: flex;
+    gap: 45px;
+    background-color: whitesmoke;
+    padding: 25px;
+    font-size: 15px;
+    height: 45vh;
+    width: 45vw;
+    border-radius: 12px;
+
+}
+.container>*{
+    flex: 1;
+}
+
+.tip-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+.people{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+button[type="reset"]{
+    display: flex;
+    align-content: end;
+}
+.left{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+.right{
+    display: flex;
+    background-color: #166534;  
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+}
+.bill-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bill-inp>input{
+    padding: 10px;
+}
+.select-tip{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.amount{
+    width: 100%;
+    
+}
+.tip{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    margin-top: 30px;
+    width: 100%;
+}
+.total-result{
+    display: flex;
+    gap: 10px;
+}
+.result-per-person{
+    display: flex;
+    gap: 10px;
+}
+.tip{
+    display: flex;
+    
+}
+.total-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
